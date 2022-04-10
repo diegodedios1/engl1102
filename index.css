@@ -50,4 +50,22 @@ div.intro .list-container div {
 }
 div.intro .list-container li {
   font-size: 1.7em;
+}
+
+div.content {
+  font-size: 1em;
+}
+div.content h1 {
+  font-size: 2em;
+}
+div.content h2 {
+  font-size: 1.7em;
+  color: black;
+}
+div.content .anime {
+  padding: 1em;
+  margin: 2em 0 2em 0;
+  background-color: grey;
+  border-radius: 1.5em;
+  color: white;
 }/*# sourceMappingURL=index.css.map */
