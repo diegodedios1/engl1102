@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;900&display=swap");
-body * {
+*, html {
   margin: 0;
   padding: 0;
   font-family: "Poppins";
 }
 
 div.header {
+  background-color: #FF5722;
   text-align: center;
 }
 div.header h1 {
@@ -18,7 +19,7 @@ div.header h2 {
 div.intro {
   display: flex;
   flex-direction: row;
-  margin: 0 3em 0 3em;
+  margin: 1em 3em 1em 3em;
 }
 div.intro div.desc {
   text-align: center;
@@ -26,14 +27,16 @@ div.intro div.desc {
   flex-basis: 50%;
 }
 div.intro div.definition {
+  background-color: #00ADB5;
+  border-radius: 1em;
+  text-align: center;
   padding: 2em;
   flex-basis: 50%;
 }
 div.intro div.definition h1 {
-  font-size: 2.5em;
+  font-size: 2em;
 }
 div.intro div.definition p {
-  font-size: 2.1em;
   display: inline-block;
   padding: 0.3em;
 }
@@ -53,6 +56,7 @@ div.intro .list-container li {
 }
 
 div.content {
+  background-color: #EEEEEE;
   font-size: 1em;
 }
 div.content h1 {
@@ -68,4 +72,234 @@ div.content .anime {
   background-color: grey;
   border-radius: 1.5em;
   color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+          animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.comic {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1vmin;
+  margin: 0.5em;
+  width: 50%;
+}
+
+.panel {
+  text-align: center;
+  background-color: #fff;
+  border: solid 2px #000;
+  box-shadow: 0 6px 6px -6px #000;
+  display: inline-block;
+  flex: 1 1;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  margin: 1vmin;
+  overflow: hidden;
+  position: relative;
+}
+.panel img {
+  max-width: 15em;
+  width: 15em;
+}
+
+.comic-text {
+  background-color: #fff;
+  border: solid 2px #000;
+  margin: 0;
+  padding: 3px 10px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.top-left {
+  left: -6px;
+  position: relative;
+  top: -2px;
+  transform: skew(-15deg);
+}
+
+.bottom-right {
+  bottom: -2px;
+  position: absolute;
+  right: -6px;
+  transform: skew(-15deg);
+}
+
+.speech {
+  background-color: #fff;
+  border: solid 2px #000;
+  border-radius: 12px;
+  display: inline-block;
+  margin: 0.5em;
+  padding: 0.5em 1em;
+  position: relative;
+}
+
+.speech:before {
+  border: solid 12px transparent;
+  border-left: solid 12px #000;
+  border-top: solid 12px #000;
+  bottom: -24px;
+  content: "";
+  height: 0;
+  left: 24px;
+  position: absolute;
+  transform: skew(-15deg);
+  width: 0;
+}
+
+.speech:after {
+  border: solid 10px transparent;
+  border-left: solid 10px #fff;
+  border-top: solid 10px #fff;
+  bottom: -19px;
+  content: "";
+  height: 0;
+  left: 27px;
+  position: absolute;
+  transform: skew(-15deg);
+  width: 0;
+}
+
+.panel:nth-child(1) {
+  flex-basis: 50%;
+}
+
+.panel:nth-child(2) {
+  flex-basis: 40%;
+}
+
+.panel:nth-child(3) {
+  flex-basis: 40%;
+}
+
+.panel:nth-child(4) {
+  flex-basis: 40%;
+}
+
+.panel:nth-child(5) {
+  flex-basis: 40%;
+}
+
+.panel:nth-child(6) {
+  flex-basis: 40%;
+}
+
+.panel:nth-child(7) {
+  flex-basis: 60%;
+}
+
+.panel:nth-child(8) {
+  flex-basis: 40%;
+}
+
+.panel:nth-child(9) {
+  flex-basis: 40%;
 }/*# sourceMappingURL=index.css.map */
