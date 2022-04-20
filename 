@@ -1,0 +1,39 @@
+[33mcommit 0e28b814e661db8f6e4ec491b4749958fee12a5a[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Diego <dsuarez34@gatech.edu>
+Date:   Sat Apr 9 19:01:20 2022 -0400
+
+    Initial Draft
+    
+    - Added /img image files
+    - First html structure
+    - Initial css file
+
+[33mcommit cff66a987842eebb506573039a2906b5874be0c7[m
+Author: Diego De Dios Suarez <83243861+diegodedios1@users.noreply.github.com>
+Date:   Fri Apr 8 16:32:49 2022 -0400
+
+    Create index.css
+
+[33mcommit 22e0c3c44744b052379c40eaccbb04186a64a960[m
+Author: Diego De Dios Suarez <83243861+diegodedios1@users.noreply.github.com>
+Date:   Fri Apr 8 15:57:25 2022 -0400
+
+    Create index.html
+
+[33mcommit f46175663f13ba84bd6adf70d03e5ab7254e8623[m
+Author: Diego De Dios Suarez <83243861+diegodedios1@users.noreply.github.com>
+Date:   Fri Apr 8 15:57:03 2022 -0400
+
+    Create index.php
+
+[33mcommit 0604c74fc951794c81ee2722682a131e85285d14[m
+Author: Diego De Dios Suarez <83243861+diegodedios1@users.noreply.github.com>
+Date:   Fri Apr 8 15:56:30 2022 -0400
+
+    Create composer.json
+
+[33mcommit 99db18fe93ad852d32d65a3cb300d8519ae62fa1[m
+Author: Diego De Dios Suarez <83243861+diegodedios1@users.noreply.github.com>
+Date:   Thu Mar 31 16:39:15 2022 -0400
+
+    Initial commit
